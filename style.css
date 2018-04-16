@@ -1,0 +1,45 @@
+body {
+
+    background-color:#031727;
+    color: #CEEBF2;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container {
+
+    widows: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding:25px;
+}
+
+
+
+input[type="button"] {
+
+    background-color: #589FBF;
+    height:100px;
+    width:100px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+h3 {
+
+    text-align: center; 
+    margin: 50px;
+}
+
+
+
+.col-sm-5 {
+
+    font-size: 23px;
+    text-align: justify;
+}
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="col-sm-12">
+            <h3>AUDIOMAKER</h3>
+        </div>
+
+        
+        <div class="col-sm-3"> 
+            
+            <input type="button" value="Record" id="nagraj1"></div>
+        
+
+        <div class="col-sm-4">
+
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <input type="button" value="Save" id="zapisz1">
+                </div>
+                <div class="col-sm-6">
+                    <input type="button" value="Play" id="play1">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="button" value="Save2" id="zapisz2">
+                </div>
+                <div class="col-sm-6">
+                    <input type="button" value="Play2" id="play2">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="button" value="Save3" id="zapisz3"> </div>
+                <div class="col-sm-6">
+                    <input type="button" value="Play3" id="play3">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="button" value="Save4" id="zapisz4">
+
+                </div>
+                <div class="col-sm-6">
+                    <input type="button" value="Play4" id="play4">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-5">Witaj!
+            <br>To jest prosty rejestrator dźwięku.
+            <br>1. Naciśnij record.
+            <br>2. Odegraj dźwięki, które są pod klawiszami: q, a, s, d, z, x, c
+            <br>3. Naciśnij save.
+            <br>4. Naciśnij play.
+            <br>Możesz nagrać do 4 ścieżek. Pamiętaj, aby przed rozpoczęciem nagrywania nacisnąć przycisk record. Ponowne naciśnięcie przycisku
+            save powoduje kasowane poprzedniego zapisu.</div>
+    </div>
+
+
+    </div>
+
+
+
+
+    <audio src="./sounds/boom.wav" data-key='90' id='boom'></audio>
+
+    <audio src="./sounds/clap.wav" data-key='88' id='clap'></audio>
+
+    <audio src="./sounds/hihat.wav" data-key='67' id='hihat'></audio>
+
+    <audio src="./sounds/kick.wav" data-key='86' id='kick'></audio>
+
+    <audio src="./sounds/openhat.wav" data-key='65' id='openhat'></audio>
+
+    <audio src="./sounds/ride.wav" data-key='83' id='ride'></audio>
+
+    <audio src="./sounds/snare.wav" data-key='68' id='snare'></audio>
+
+    <audio src="./sounds/tink.wav" data-key='70' id='tink'></audio>
+
+    <audio src="./sounds/tom.wav" data-key='81' id='tom'></audio>
+
+
+
+
+
+    <script src="program.js" type="text/javascript" language="javascript"></script>
+</body>
+
+</html>
